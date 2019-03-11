@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Endeavor_Battle_Ship.iml" filepath="$PROJECT_DIR$/.idea/modules/Endeavor_Battle_Ship.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/Endeavor_Battle_Ship.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/Endeavor_Battle_Ship.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/Endeavor_Battle_Ship.core.main.iml" filepath="$PROJECT_DIR$/.idea/modules/core/Endeavor_Battle_Ship.core.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/Endeavor_Battle_Ship.core.test.iml" filepath="$PROJECT_DIR$/.idea/modules/core/Endeavor_Battle_Ship.core.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/Endeavor_Battle_Ship.desktop.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/Endeavor_Battle_Ship.desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/Endeavor_Battle_Ship.desktop.main.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/Endeavor_Battle_Ship.desktop.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/desktop/Endeavor_Battle_Ship.desktop.test.iml" filepath="$PROJECT_DIR$/.idea/modules/desktop/Endeavor_Battle_Ship.desktop.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/html/Endeavor_Battle_Ship.html.iml" filepath="$PROJECT_DIR$/.idea/modules/html/Endeavor_Battle_Ship.html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/html/Endeavor_Battle_Ship.html.main.iml" filepath="$PROJECT_DIR$/.idea/modules/html/Endeavor_Battle_Ship.html.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/html/Endeavor_Battle_Ship.html.test.iml" filepath="$PROJECT_DIR$/.idea/modules/html/Endeavor_Battle_Ship.html.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desktop/desktop.iml" filepath="$PROJECT_DIR$/desktop/desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/html/html.iml" filepath="$PROJECT_DIR$/html/html.iml" />
+    </modules>
+  </component>
+</project>

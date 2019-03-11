@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Endeavor_Battle_Ship.core.main" target="1.6" />
+      <module name="Endeavor_Battle_Ship.core.test" target="1.6" />
+      <module name="Endeavor_Battle_Ship.desktop.main" target="1.6" />
+      <module name="Endeavor_Battle_Ship.desktop.test" target="1.6" />
+      <module name="Endeavor_Battle_Ship.html.main" target="1.6" />
+      <module name="Endeavor_Battle_Ship.html.test" target="1.6" />
+      <module name="Proyecto_Videojuego.core.main" target="1.6" />
+      <module name="Proyecto_Videojuego.core.test" target="1.6" />
+      <module name="Proyecto_Videojuego.desktop.main" target="1.6" />
+      <module name="Proyecto_Videojuego.desktop.test" target="1.6" />
+      <module name="Proyecto_Videojuego.html.main" target="1.6" />
+      <module name="Proyecto_Videojuego.html.test" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
