@@ -39,103 +39,113 @@
     <favorites_list name="Endeavor Battle Ship" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/screen/ElectionShip.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="157">
-                  <caret line="78" column="107" lean-forward="true" selection-start-line="77" selection-start-column="20" selection-end-line="78" selection-end-column="107" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/BattleShip.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="273">
-                  <caret line="30" selection-start-line="30" selection-end-line="30" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/screen/GameOver.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="258">
-                  <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/character/Asteroid.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1">
-                  <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/screen/MainMenu.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="370">
-                  <caret line="40" selection-start-line="40" selection-end-line="40" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/screen/GameSetting.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="256">
-                  <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#810#811#0" expanded="true" />
-                    <element signature="e#871#872#0" expanded="true" />
-                    <element signature="e#1521#1529#0" expanded="true" />
-                    <element signature="e#1829#2149#0" expanded="true" />
-                    <element signature="e#2148#2149#0" expanded="true" />
-                    <element signature="e#2828#2829#0" expanded="true" />
-                    <element signature="e#2885#2886#0" expanded="true" />
-                    <element signature="e#3072#3073#0" expanded="true" />
-                    <element signature="e#3103#3104#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/screen/GameScreen.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1779">
-                  <caret line="118" column="54" lean-forward="true" selection-start-line="118" selection-start-column="54" selection-end-line="118" selection-end-column="54" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/screen/ElectionShip.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1156">
+              <caret line="78" column="107" selection-start-line="77" selection-start-column="20" selection-end-line="78" selection-end-column="107" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/BattleShip.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/tools/ScrollingBackground.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#1987#1988#0" expanded="true" />
+                <element signature="e#2029#2030#0" expanded="true" />
+                <element signature="e#2083#2084#0" expanded="true" />
+                <element signature="e#2127#2128#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/screen/GameScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="354" column="41" lean-forward="true" selection-start-line="354" selection-start-column="41" selection-end-line="354" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/screen/GameOver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/character/Asteroid.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1411">
+              <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/character/Fire.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="29" column="95" selection-start-line="29" selection-start-column="95" selection-end-line="29" selection-end-column="95" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/screen/MainMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/screen/GameSetting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1275">
+              <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -153,23 +163,23 @@
         <option value="$PROJECT_DIR$/desktop/src/com/mortega/battleship/desktop/DesktopLauncher.java" />
         <option value="$PROJECT_DIR$/core/src/com/mortega/battleship/tools/Colisiones.java" />
         <option value="$PROJECT_DIR$/core/src/com/mortega/battleship/BattleShip.java" />
-        <option value="$PROJECT_DIR$/core/src/com/mortega/battleship/tools/ScrollingBackground.java" />
         <option value="$PROJECT_DIR$/core/src/com/mortega/battleship/character/Enemigos.java" />
         <option value="$PROJECT_DIR$/core/src/com/mortega/battleship/character/Explosion.java" />
         <option value="$PROJECT_DIR$/core/src/com/mortega/battleship/screen/GameOver.java" />
         <option value="$PROJECT_DIR$/html/src/com/mortega/battleship/client/HtmlLauncher.java" />
         <option value="$PROJECT_DIR$/core/src/com/mortega/battleship/screen/ElectionShip.java" />
-        <option value="$PROJECT_DIR$/core/src/com/mortega/battleship/character/Fire.java" />
-        <option value="$PROJECT_DIR$/core/src/com/mortega/battleship/screen/GameScreen.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/core/src/com/mortega/battleship/screen/MainMenu.java" />
-        <option value="$PROJECT_DIR$/core/src/com/mortega/battleship/character/Asteroid.java" />
         <option value="$PROJECT_DIR$/core/src/com/mortega/battleship/screen/GameSetting.java" />
+        <option value="$PROJECT_DIR$/core/src/com/mortega/battleship/character/Fire.java" />
+        <option value="$PROJECT_DIR$/core/src/com/mortega/battleship/tools/ScrollingBackground.java" />
+        <option value="$PROJECT_DIR$/core/src/com/mortega/battleship/character/Asteroid.java" />
+        <option value="$PROJECT_DIR$/core/src/com/mortega/battleship/screen/GameScreen.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="833" />
     <option name="width" value="854" />
     <option name="height" value="1017" />
   </component>
@@ -179,8 +189,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,42 +196,18 @@
               <item name="Endeavor Battle Ship" type="b2602c69:ProjectViewProjectNode" />
               <item name="Endeavor Battle Ship" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="Endeavor Battle Ship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Endeavor Battle Ship" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Endeavor Battle Ship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Endeavor Battle Ship" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Endeavor Battle Ship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Endeavor Battle Ship" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="battleship" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Endeavor Battle Ship" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Endeavor Battle Ship" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="core" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="battleship" type="462c0819:PsiDirectoryNode" />
-              <item name="screen" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551814625591" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ISO/CamaraMongo" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552417547763" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -302,10 +286,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994401" weight="0.24449877" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994401" visible="true" weight="0.22014925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -322,7 +305,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49755502" weight="0.32922733" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49938875" weight="0.32922733" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5030562" side_tool="true" weight="0.32922733" />
-      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.49694377" weight="0.32922733" />
+      <window_info active="true" anchor="bottom" id="Build" order="10" sideWeight="0.49694377" visible="true" weight="0.32917964" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49816626" weight="0.3281075" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -343,13 +326,6 @@
     <entry file="file://$PROJECT_DIR$/core/assets/stars_background.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/tools/ScrollingBackground.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/tools/GameCamera.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -362,13 +338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/tools/Colisiones.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -404,20 +373,6 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.9.9/222a6367453012e0da3caa48b892b5c8ecc42dc/gdx-backend-lwjgl-1.9.9-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplication.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.9.9/222a6367453012e0da3caa48b892b5c8ecc42dc/gdx-backend-lwjgl-1.9.9-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglInput.java" />
-    <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/character/Fire.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1218#1219#0" expanded="true" />
-            <element signature="e#1259#1260#0" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1331#1332#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/desktop/src/com/mortega/battleship/desktop/DesktopLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -448,10 +403,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/tools/Colisiones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="51" lean-forward="true" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/screen/ElectionShip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="78" column="107" lean-forward="true" selection-start-line="77" selection-start-column="20" selection-end-line="78" selection-end-column="107" />
+        <state relative-caret-position="1156">
+          <caret line="78" column="107" selection-start-line="77" selection-start-column="20" selection-end-line="78" selection-end-column="107" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -460,28 +422,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/BattleShip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="323">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/tools/ScrollingBackground.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#1987#1988#0" expanded="true" />
+            <element signature="e#2029#2030#0" expanded="true" />
+            <element signature="e#2083#2084#0" expanded="true" />
+            <element signature="e#2127#2128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/screen/GameOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/character/Asteroid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="1411">
+          <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/screen/GameScreen.java">
+    <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/character/Fire.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1779">
-          <caret line="118" column="54" lean-forward="true" selection-start-line="118" selection-start-column="54" selection-end-line="118" selection-end-column="54" />
+        <state relative-caret-position="357">
+          <caret line="29" column="95" selection-start-line="29" selection-start-column="95" selection-end-line="29" selection-end-column="95" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -490,33 +472,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/screen/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
+        <state relative-caret-position="578">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/screen/GameOver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/screen/GameSetting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="1275">
           <caret line="91" column="29" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#1521#1529#0" expanded="true" />
-            <element signature="e#1829#2149#0" expanded="true" />
-            <element signature="e#2148#2149#0" expanded="true" />
-            <element signature="e#2828#2829#0" expanded="true" />
-            <element signature="e#2885#2886#0" expanded="true" />
-            <element signature="e#3072#3073#0" expanded="true" />
-            <element signature="e#3103#3104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/mortega/battleship/screen/GameScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="354" column="41" lean-forward="true" selection-start-line="354" selection-start-column="41" selection-end-line="354" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

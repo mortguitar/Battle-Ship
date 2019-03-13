@@ -3,6 +3,8 @@ package com.mortega.battleship.screen;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.Screen;
+import com.badlogic.gdx.audio.Music;
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
@@ -76,11 +78,16 @@ public class GameScreen implements Screen {
 
     private Colisiones playerRect;
 
+    private GlyphLayout drawRestante;
+
     private int health = 7;//0 = mueres, 7 = vida completa
     public static int score;
     public static int scoreRestante;
 
     private boolean showControls = true;
+
+    private Sound asteroidSound;
+    private Music musicaFondo;
 
     GameScreen(BattleShip game) {
 
@@ -97,6 +104,10 @@ public class GameScreen implements Screen {
         playerRect = new Colisiones(0, 0, SHIP_WIDTH, SHIP_HEIGHT);
 
         blank = new Texture("blank.png");
+
+        musicaFondo = Gdx.audio.newMusic(Gdx.files.internal("music/Space Jam Theme Song.mp3"));
+        musicaFondo.setLooping(true);
+        musicaFondo.play();
 
         score = 0;
 
@@ -169,7 +180,11 @@ public class GameScreen implements Screen {
 
             //Aqui se anima las colisiones y hacen que ocurran
             for (Asteroid asteroid : asteroids) {
+
                 if (bullet.getCollisionRect().collidesWith(asteroid.getColisiones())) {
+
+                    asteroidSound = Gdx.audio.newSound(Gdx.files.internal("music/sound effects explosion.mp3"));
+                    asteroidSound.play();
 
                     Asteroid.vida -= 1;
 
@@ -196,10 +211,12 @@ public class GameScreen implements Screen {
                             score += 500;
                             scoreRestante = ASTEROID_FIRE - score;
                         } else if (Asteroid.tipo == HIELO) {
-                            score += 2000;
+                            asteroidSound = Gdx.audio.newSound(Gdx.files.internal("music/Ice spell.mp3"));
+                            asteroidSound.play();
+                            score += 700;
                             scoreRestante = ASTEROID_ICE - score;
                         } else if (Asteroid.tipo == BIG_CHUNGUS)
-                            score = 666;
+                            score += 666;
                     }
                 }
             }
@@ -220,7 +237,7 @@ public class GameScreen implements Screen {
                 else if (Asteroid.tipo == HIELO)
                     health -= 1;
                 else if (Asteroid.tipo == BIG_CHUNGUS)
-                    health -= 7;
+                    health -= 20;
 
                 //Si la el jugador ya no tiene vida, Se inicia la ventana de GAME OVER
                 if (health <= 0) {
@@ -331,10 +348,12 @@ public class GameScreen implements Screen {
         GlyphLayout infoScoreRestante = new GlyphLayout(scoreFont, "Siguiente nivel");
         scoreFont.draw(game.batch, infoScoreRestante, 1200, 1000);
 
-        GlyphLayout drawRestante = new GlyphLayout(scoreFont, "" + scoreRestante);
-        scoreFont.draw(game.batch, drawRestante, 1200, 960);
-
         if (Asteroid.tipo == HIELO) {
+
+            musicaFondo.stop();
+            musicaFondo = Gdx.audio.newMusic(Gdx.files.internal("music/Chungus Anthem.mp3"));
+            musicaFondo.setLooping(true);
+            musicaFondo.play();
 
             bigChungusFont.getData().setScale(0.8f,4.9f);
             bigChungusFont.setColor(Color.YELLOW);
@@ -342,6 +361,9 @@ public class GameScreen implements Screen {
             GlyphLayout bigchungus = new GlyphLayout(bigChungusFont, "BIG CHUNGUS\nIS\nNEAR");
             bigChungusFont.draw(game.batch, bigchungus, 50,870);
             bigChungusFont.draw(game.batch, bigchungus, 1200, 870);
+
+            drawRestante = new GlyphLayout(scoreFont, "" + scoreRestante);
+            scoreFont.draw(game.batch, drawRestante, 1200, 960);
         }
         else if (Asteroid.tipo == BIG_CHUNGUS) {
 
@@ -355,6 +377,11 @@ public class GameScreen implements Screen {
             bigChungusFont.draw(game.batch, bigchungus, 1200, 870);
             scoreFont.draw(game.batch, drawRestante, 1200, 960);
         }
+        else {
+            drawRestante = new GlyphLayout(scoreFont, "" + scoreRestante);
+            scoreFont.draw(game.batch, drawRestante, 1200, 960);
+        }
+
 
         game.batch.draw((TextureRegion) rolls[roll].getKeyFrame(stateTime, true), x, y, SHIP_WIDTH, SHIP_HEIGHT);
     }
@@ -454,6 +481,7 @@ public class GameScreen implements Screen {
 
             if (roll == 0 || roll == 4)
                 offset = 16;
+
 
             fires.add(new Fire(x + offset));
             fires.add(new Fire(x + SHIP_WIDTH - offset));

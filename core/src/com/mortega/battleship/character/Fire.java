@@ -1,5 +1,7 @@
 package com.mortega.battleship.character;
 
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.mortega.battleship.BattleShip;
@@ -24,6 +26,9 @@ public class Fire {
         this.x = x;
         this.y = DEFAULT_Y;
         this.rect = new Colisiones (x, y, WIDTH, HEIGHT);
+
+        Sound fireSound = Gdx.audio.newSound(Gdx.files.internal("music/Laser - Sound Effect.mp3"));
+        fireSound.play();
 
         if (ElectionShip.tipo == ULTIMATE) {
             texture = new Texture("bullet_ultimate.png");

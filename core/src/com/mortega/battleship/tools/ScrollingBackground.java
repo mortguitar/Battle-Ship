@@ -18,6 +18,7 @@ public class ScrollingBackground {
     private boolean speedFixed;
 
     public ScrollingBackground () {
+
         image = new Texture("stars_background.png");
 
         y1 = 0;

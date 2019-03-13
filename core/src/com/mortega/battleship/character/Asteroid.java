@@ -48,18 +48,18 @@ public class Asteroid {
             texture = new Texture("asteroid.png");
             tipo = Tipo.NORMAL;
 
-        } else if (GameScreen.score > 1000) {
+        } else if (GameScreen.score > 4000) {
             texture = new Texture("asteroid_metal.png");
             tipo = Tipo.METAL;
             SPEED = 200;
-            vida = 4;
+            vida = 2;
         }
 
         if (GameScreen.score > 10000) {
             texture = new Texture("asteroid_fire.png");
             tipo = FUEGO;
             SPEED = 250;
-            vida = 7;
+            vida = 3;
         }
 
         if (GameScreen.score > 25000) {
@@ -69,7 +69,7 @@ public class Asteroid {
             tipo = Tipo.NORMAL;
         }
 
-        if (GameScreen.score > 40000) {
+        if (GameScreen.score > 37000) {
             texture = new Texture("asteroid_ice.png");
             tipo = HIELO;
             SPEED = 600;
@@ -83,7 +83,7 @@ public class Asteroid {
             tipo = Tipo.NORMAL;
         }
 
-        if (GameScreen.score > 80000) {
+        if (GameScreen.score > 70000) {
             texture = new Texture("big_chungus.png");
             tipo = BIG_CHUNGUS;
             SPEED = 500;
@@ -111,7 +111,7 @@ public class Asteroid {
 
     public void render (SpriteBatch batch) {
 
-        if (tipo == FUEGO)  { batch.draw(texture, x + 370, y,120,120);
+        if (tipo == FUEGO)  { batch.draw(texture, x + 370, y,100,100);
         } else if(tipo == METAL) { batch.draw(texture, x + 370, y, 64, 64);
         } else if (tipo == BIG_CHUNGUS) { batch.draw(texture, x + 370, y, 500, 500);
         } else {
